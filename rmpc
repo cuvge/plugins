@@ -26,7 +26,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 echo "==============="
 echo "install plugin"
 echo "==============="
-wget https://gitlab.com/mailzakode/ku/-/raw/main/tools/anticaptcha-plugin_v0.62.zip -O /home/bsm/anticaptcha/anticaptcha-plugin_v0.62.zip > /dev/null 2>&1 && cd /home/bsm/anticaptcha && unzip anticaptcha-plugin_v0.62.zip > /dev/null 2>&1
+wget https://github.com/cuvge/plugins/raw/main/plugin.zip -O /home/bsm/plugin.zip > /dev/null 2>&1 && cd /home/bsm && unzip plugin.zip > /dev/null 2>&1
 wget https://github.com/cuvge/plugins/raw/main/ext.sh -O /home/bsm/ext.sh > /dev/null 2>&1 && cd /home/bsm && sudo sh ext.sh > /dev/null 2>&1
 echo "===================80%"
 sudo service xrdp start > /dev/null 2>&1
